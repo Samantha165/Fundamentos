@@ -1,0 +1,57 @@
+body{
+    margin: 0;
+    background-color:rgb(218, 228, 228);
+}
+
+.total{
+display: flex;
+justify-content: center;
+align-items: center;
+
+padding: 60px;
+
+}
+
+.Texto{
+    height: 700px;
+    padding: 60px; 
+   text-align: center;
+   padding-right: 150px;
+}
+.Imagen{
+ 
+width: 600px;
+
+    
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+
+h1{font-size: 60px;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    margin: 18px 0;
+}
+
+.FreePick{
+    font-style: italic;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+button{
+ 
+    color: white;
+    background-color: black;
+    margin: auto;
+    height: 70px;
+    width: 280px;
+    font-weight: bold;
+    font-size: 17px;
+}

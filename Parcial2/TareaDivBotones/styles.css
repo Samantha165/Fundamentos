@@ -56,8 +56,6 @@ input{
     position: absolute;
     left: 170px;
  
-    
-  
 }
 
 .Completar{
@@ -76,5 +74,5 @@ input{
 }
 
 .Tarea_Completada {
-    background-color: green; /* cambia de azul a verde cuando se completa */
+    background-color: green;
 }

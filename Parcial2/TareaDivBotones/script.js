@@ -18,11 +18,11 @@ const tareas = document.querySelector(".Tareas")
     completar.classList.add("Completar");
     eliminar.classList.add("Eliminar"); 
 
-  completar.onclick = function() {
+  completar.onclick = function(){
     tarea.classList.toggle("Tarea_Completada");
 };
 
-eliminar.onclick = function() {
+eliminar.onclick = function(){
     tarea.remove();
 };
 

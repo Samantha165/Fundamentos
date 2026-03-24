@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+
+<header>
+  <nav>
+    <a href="./Inicio_Sesion.html" class="login">Iniciar sesión</a>
+    <div class="nav_links">
+      <a href="./index.html">Home</a>
+      <a href="./membresias.html">Membresías</a>
+      <a href="./registro.html">Registro</a>
+    </div>
+     <button class = "menu-toggle" onclick="toogle()">☰</button>
+  </nav>
+  <div class="red-bar"></div>
+</header>
+
+
+  <div class = "main">
+
+
+       <div class = "Texto_Arriba">
+        <h1>Iniciar sesión</h1>
+        <h2>Bienvenido</h2>
+    </div>
+
+
+    <div class = "Formulario_IS">
+
+        <form action="">
+          <div class = "Input_IS">
+        <label for="Correo">Correo</label>
+        <input type="email" id="Correo" required>
+          </div>
+          <br>
+
+        <div class = "Input_IS">
+        <label for="Contraseña">Contraseña</label>
+        <input type="password" id="Contraseña" minlength="8" required>
+        </div>
+        <br>
+
+        <button  id="IS">Iniciar sesión</button>
+
+        </form>
+    </div>
+
+
+        <div class = "IS_Registro">
+        <p>¿Aún no tienes una cuenta?</p>
+        <a href="./registro.html"> <button>Registrarme</button> </a>
+        </div>
+
+  </div>
+    <script src = "./script.js"></script>
+
+
+</body>
+</html>
